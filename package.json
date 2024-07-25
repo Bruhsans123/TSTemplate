@@ -1,0 +1,25 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "project's description",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc && tsc-alias",
+    "tsn:start": "ts-node --project tsconfig.json src/index.ts",
+    "start": "pnpm run build && node ."
+  },
+  "keywords": [],
+  "author": "DOMIN1310",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.14.11",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "globals": "^15.8.0",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.5.4",
+    "typescript-transform-paths": "^3.4.7"
+  }
+}
